@@ -1,12 +1,11 @@
+import "./styles.css";
+import Weather from "./Weather";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-     <h1>hello world</h1>
+      <h1>Weather Search Engine</h1>
+      <Weather />
     </div>
   );
 }
-
-export default App;
